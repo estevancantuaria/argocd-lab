@@ -18,5 +18,5 @@ jobs:
         with:
           username: estevan123
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: estevancantuaria/argocd-lab
+          repository: estevan123/argocd
           tags: ${{ github.sha }}, latest
