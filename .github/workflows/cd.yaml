@@ -5,6 +5,9 @@ on:
     branches:
       [main]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build
@@ -48,4 +51,7 @@ jobs:
          
 
       - name: push
-        uses: ad-m/github-push-action@master
+        run: |
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
