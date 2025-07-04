@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: estevan123/argocd
-  newTag: 698171b7de3f97c1069e0e5da9a8f6fda1f44e20
+  newTag: 698cc48b1bb349da82618336213b4ac8aa186980
